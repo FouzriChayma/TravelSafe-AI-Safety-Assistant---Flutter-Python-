@@ -32,8 +32,14 @@ TravelSafe/
 │   ├── venv/        # Virtual environment
 │   ├── main.py      # FastAPI application
 │   ├── requirements.txt
-│   └── .env         # Environment variables
-└── mobile/          # Flutter app (to be created)
+│   └── .env         # Environment variables (create manually)
+└── mobile/          # Flutter mobile app
+    ├── lib/         # Dart source code
+    │   └── main.dart
+    ├── android/     # Android platform files
+    ├── ios/         # iOS platform files
+    ├── web/         # Web platform files
+    └── pubspec.yaml # Flutter dependencies
 ```
 
 ## Setup Instructions
@@ -78,6 +84,25 @@ TravelSafe/
 
 ### Flutter Setup
 
-(To be added when Flutter app is created)
+1. Navigate to mobile directory:
+   ```bash
+   cd mobile
+   ```
+
+2. Get Flutter dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app:
+   ```bash
+   flutter run
+   ```
+
+   Or run on a specific device:
+   ```bash
+   flutter devices  # List available devices
+   flutter run -d <device-id>
+   ```
 
 ## Difficulty: ⭐⭐⭐⭐
