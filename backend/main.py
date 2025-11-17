@@ -40,6 +40,14 @@ async def health():
     """Health check endpoint"""
     return {"status": "healthy"}
 
+@app.get("/api/test")
+async def test():
+    """Simple test endpoint to verify connection"""
+    return {
+        "message": "Backend is working!",
+        "data": "This is a test response from the TravelSafe API"
+    }
+
 # TODO: Add endpoints for:
 # - Image analysis
 # - Weather data

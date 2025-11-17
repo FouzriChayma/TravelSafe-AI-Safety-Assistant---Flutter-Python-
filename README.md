@@ -42,6 +42,10 @@ TravelSafe/
     └── pubspec.yaml # Flutter dependencies
 ```
 
+## 🚀 Quick Start
+
+**New to Flutter?** Check out **[HOW_TO_RUN.md](HOW_TO_RUN.md)** for detailed step-by-step instructions!
+
 ## Setup Instructions
 
 ### Backend Setup
