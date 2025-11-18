@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "latitude": 36.8246784,
+    "longitude": 10.2039552,
+    "incident_type": "assault",
+    "description": "",
+    "reported_at": "2025-11-19T00:11:45.753647",
+    "verified": false
+  },
+  {
+    "id": 2,
+    "latitude": 36.8246784,
+    "longitude": 10.2039552,
+    "incident_type": "suspicious_activity",
+    "description": "",
+    "reported_at": "2025-11-19T00:11:54.678916",
+    "verified": false
+  }
+]
